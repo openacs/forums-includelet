@@ -1,8 +1,8 @@
 ad_page_contract {
     The display logic for the forums admin includelet
-    
+
     @author Ben Adida (ben@openforce)
-    @cvs_id $Id$
+    @cvs-id $Id$
 }
 
 db_multirow forums select_forums {
