@@ -4,7 +4,7 @@ ad_library {
 
     @creation-date 2008-07-16
     @author Don Baccus <dhogaza@pacifier.com>
-    @version $Id$
+    @cvs-id $Id$
 }
 
 namespace eval forums_includelet::install {}
@@ -22,7 +22,7 @@ ad_proc -private forums_includelet::install::package_install {} {
             -title #forums-includelet.admin_pretty_name# \
             -application forums \
             -template /packages/forums-includelet/lib/forums-admin-includelet \
-            -required_privilege admin 
+            -required_privilege admin
 
         # User includelet
         layout::includelet::new \
@@ -30,7 +30,7 @@ ad_proc -private forums_includelet::install::package_install {} {
             -description "Displays the forums includelet" \
             -title #forums-includelet.pretty_name# \
             -application forums \
-            -template /packages/forums-includelet/lib/forums-includelet 
+            -template /packages/forums-includelet/lib/forums-includelet
     }
 }
 
