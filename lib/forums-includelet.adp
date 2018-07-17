@@ -1,4 +1,4 @@
-<if @forums:rowcount@ gt 0>
+<if @forums:rowcount;literal@ gt 0>
   <ul>
     <multiple name="forums">
       @forums.parent_name@
